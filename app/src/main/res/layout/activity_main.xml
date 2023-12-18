@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/dimens_1dp"
+        android:layout_marginLeft="@dimen/dimens_2dp"
+        android:layout_marginRight="@dimen/dimens_2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/circle_border">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/normal_margin"
+                android:layout_weight="1"
+                android:text="Feature Level:"
+                android:textSize="@dimen/normal_text_size" />
+
+            <Spinner
+                android:id="@+id/sp_featureLevel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/normal_margin"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:scrollbarSize="@dimen/dimens_10dp"
+                android:entries="@array/feature_level"
+                android:textSize="@dimen/normal_text_size" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/normal_margin"
+                android:layout_weight="1"
+                android:text="Device Mode:"
+                android:textSize="@dimen/normal_text_size" />
+
+            <Spinner
+                android:id="@+id/sp_deviceMode"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/normal_margin"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:scrollbarSize="@dimen/dimens_10dp"
+                android:entries="@array/device_mode"
+                android:textSize="@dimen/normal_text_size" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimens_2dp"
+        android:layout_marginTop="@dimen/dimens_2dp"
+        android:layout_marginLeft="@dimen/dimens_2dp"
+        android:layout_marginRight="@dimen/dimens_2dp"
+        android:layout_marginBottom="@dimen/dimens_2dp"
+        android:background="@color/black">
+
+    </View>
+    <LinearLayout
+        android:layout_marginTop="@dimen/dimens_1dp"
+        android:layout_marginLeft="@dimen/dimens_2dp"
+        android:layout_marginRight="@dimen/dimens_2dp"
+        android:layout_marginBottom="@dimen/dimens_1dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/circle_border">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/open_mdb"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/normal_margin"
+                android:layout_weight="1"
+                android:background="@drawable/btnselector"
+
+                android:text="Start MDB"
+                android:textSize="@dimen/normal_text_size" />
+            <Button
+                android:id="@+id/close_mdb"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/normal_margin"
+                android:layout_weight="1"
+                android:background="@drawable/btnselector"
+
+                android:text="Close MDB"
+                android:textSize="@dimen/normal_text_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/beginSession"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/normal_margin"
+                android:layout_weight="1"
+                android:background="@drawable/btnselector"
+                android:text="BEGIN SESSION(Auth first)"
+                android:textSize="@dimen/normal_text_size" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/cancelSession"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/normal_margin"
+                android:layout_weight="1"
+                android:background="@drawable/btnselector"
+                android:text="CANCEL SESSION"
+                android:textSize="@dimen/normal_text_size" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

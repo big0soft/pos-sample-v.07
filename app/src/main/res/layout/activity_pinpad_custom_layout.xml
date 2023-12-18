@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_pinpad_custom_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nexgo.apiv3demo.PinpadCustomLayoutActivity">
+
+    <GridLayout
+        android:id="@+id/keyboard_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:columnCount="4"
+        android:layout_marginTop="70dp"
+        android:rowCount="4"
+        >
+        <!--row1-->
+        <Button
+            android:id="@+id/keyboard_1"
+            android:layout_width="0dp"
+            android:background="@drawable/keyboard"
+            android:textColor="#000000"
+            android:textSize="18.5sp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+
+        <Button
+            android:id="@+id/keyboard_2"
+            android:layout_width="0dp"
+            android:background="@drawable/keyboard"
+            android:textColor="#000000"
+            android:textSize="18.5sp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+
+        <Button
+            android:id="@+id/keyboard_3"
+            android:layout_width="0dp"
+            android:background="@drawable/keyboard"
+            android:textColor="#000000"
+            android:textSize="18.5sp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+
+        <Button
+            android:id="@+id/keyboard_cancel"
+            android:layout_width="0dp"
+            android:background="@drawable/keyboard"
+            android:text="Cancel"
+            android:textColor="#000000"
+            android:textSize="18.5sp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+        <!--row2-->
+        <Button
+            android:id="@+id/keyboard_4"
+            android:layout_width="0dp"
+            android:background="@drawable/keyboard"
+            android:textColor="#000000"
+            android:textSize="18.5sp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+
+        <Button
+            android:id="@+id/keyboard_5"
+            android:layout_width="0dp"
+            android:background="@drawable/keyboard"
+            android:textColor="#000000"
+            android:textSize="18.5sp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+
+        <Button
+            android:id="@+id/keyboard_6"
+            android:layout_width="0dp"
+            android:background="@drawable/keyboard"
+            android:textColor="#000000"
+            android:textSize="18.5sp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+
+        <Button
+            android:id="@+id/keyboard_clear"
+            android:layout_width="0dp"
+            android:background="@drawable/keyboard"
+            android:text="clear"
+            android:textColor="#000000"
+            android:textSize="18.5sp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+        <!--row3-->
+        <Button
+            android:id="@+id/keyboard_7"
+            android:layout_width="0dp"
+            android:background="@drawable/keyboard"
+            android:textColor="#000000"
+            android:textSize="18.5sp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+
+        <Button
+            android:id="@+id/keyboard_8"
+            android:layout_width="0dp"
+            android:background="@drawable/keyboard"
+            android:textColor="#000000"
+            android:textSize="18.5sp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+
+        <Button
+            android:id="@+id/keyboard_9"
+            android:layout_width="0dp"
+            android:background="@drawable/keyboard"
+            android:textColor="#000000"
+            android:textSize="18.5sp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+
+        <Button
+            android:id="@+id/keyboard_confirm"
+            android:layout_width="0dp"
+            android:background="@drawable/keyboard_confirm"
+            android:text="OK"
+            android:textColor="#000000"
+            android:textSize="18.5sp"
+            android:layout_columnWeight="1"
+            android:layout_rowSpan="2"
+            android:layout_rowWeight="1"/>
+        <!--row4-->
+        <Button
+            android:layout_width="0dp"
+            android:background="@color/pin_input_bg"
+            android:clickable="false"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+
+        <Button
+            android:id="@+id/keyboard_0"
+            android:layout_width="0dp"
+            android:background="@drawable/keyboard"
+            android:textColor="#000000"
+            android:textSize="18.5sp"
+
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:background="@color/pin_input_bg"
+            android:clickable="false"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+    </GridLayout>
+</RelativeLayout>

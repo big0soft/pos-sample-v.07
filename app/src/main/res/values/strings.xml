@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">MdbDemo</string>
+
+    <string name="app_1">app 1</string>
+    <string name="transfer">trade</string>
+    <string name="cancel_transfer">cancel trade</string>
+    <string name="update_tmk">write tmk</string>
+    <string name="update_workkey">write work key</string>
+    <string name="encrypt_workkey">work key encrypt</string>
+    <string name="input_online_pin">input online PIN</string>
+
+    <string name="print_bill">print bill</string>
+
+    <string name="prompt_card">Please swipe the card or insert card or play card</string>
+    <string name="prompt_cardiccrf">insert card or play card</string>
+    <string name="prompt_serachcard_fail">search card fail</string>
+    <string name="prompt_amount_err">the error format of amount</string>
+
+    <string name="prompt_return">the value of return</string>
+    <string name="prompt_cardtype">the final card type</string>
+    <string name="prompt_cardslot">card slot type</string>
+    <string name="prompt_track1">one track</string>
+    <string name="prompt_track2">two track</string>
+    <string name="prompt_track3">three track</string>
+    <string name="prompt_cardno">card number</string>
+
+    <string name="input_amount">input amount</string>
+    <string name="is_ecash">Whether to use electronic cash</string>
+    <string name="ensure_cardno">please ensure card number</string>
+    <string name="input_pin_err">input pin failed</string>
+    <string name="result">result</string>
+
+    <string name="scanner_content">Scan code content</string>
+    <string name="scanner_timeout">Scan code overtime</string>
+    <string name="scanner_customer_exit">customer exit</string>
+    <string name="scanner_fail">Scan code fail</string>
+    <string name="scanner_start_error">start fail</string>
+    <string name="scanner_init_error">init fail</string>
+
+    <string name="print_merchantname">merchant name:app test</string>
+    <string name="print_merchantno">merchant no:123456789012345</string>
+    <string name="print_terminalno">terminal no:12345678</string>
+    <string name="print_operator">operator:01</string>
+    <string name="print_issurebank">issuing bank:icbc</string>
+    <string name="print_shoudan">acquiring bank:icbc</string>
+    <string name="print_expiredate">exp date:26/06</string>
+    <string name="print_cardinfo">621226*********1197/C</string>
+    <string name="print_tradetype">trans type:</string>
+    <string name="print_unsale">unsale</string>
+    <string name="print_batchno">batch no:000938</string>
+    <string name="print_voucher">voucher no:000146</string>
+    <string name="print_authorcode">auth no:012345</string>
+    <string name="print_refrenceno">refer no:150303296481</string>
+    <string name="print_tradedate">date/time:2016/09/21 15:03:03</string>
+    <string name="print_amount">amount:</string>
+    <string name="print_beizhu">reference:</string>
+    <string name="print_originalvoucher">orig voucher no:000145</string>
+    <string name="print_addinfo">additional information(Host):</string>
+    <string name="print_barcode">1234567890</string>
+    <string name="print_qrcode">test qrcode</string>
+    <string name="print_cardhold">CARDER:</string>
+    <string name="print_cardhold_ensure">I ACKNOWLEDGE SATISFACTORY RECEIPT OF RELATIVE  GOODS/SERVICES</string>
+    <string name="print_merchant_dan">MERCHANT COPY</string>
+
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="prompt_enter">enter</string>
+    <string name="prompt_cancel">cancel</string>
+
+    <string name="swip_again">swipe again</string>
+    <string name="search_toomany_cards">search too many cards</string>
+    <string name="is_iccard">is ICC</string>
+    <string name="serialport_connect_success">serialport connect success</string>
+    <string name="serialport_connect_fail">serialport connect fail</string>
+    <string name="cpucard_poweron_have_return_value">cpucard powerOn have return value</string>
+    <string name="cpucard_test">cpucard test</string>
+    <string name="m1card_readblock_success">M1Card readBlock SUCCESS</string>
+    <string name="m1card_test">M1Card test</string>
+    <string name="getting_datas">getting datas...</string>
+    <string name="encryption_fail">encryption fail</string>
+    <string name="cardnum">Card Num</string>
+    <string name="money">    RMB:123456789.00</string>
+
+    <string name="dukpt">DUKPT</string>
+    <string name="dukptencryptfail">dukpt encrypt fail</string>
+</resources>

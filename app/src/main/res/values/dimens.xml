@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--common textsize sp -->
+    <dimen name="text_50sp">50sp</dimen>
+    <dimen name="text_42sp">42sp</dimen>
+    <dimen name="text_40sp">40sp</dimen>
+    <dimen name="text_34sp">34sp</dimen>
+    <dimen name="text_24sp">24sp</dimen>
+    <dimen name="text_22sp">22sp</dimen>
+    <dimen name="text_20sp">20sp</dimen>
+    <dimen name="text_18sp">18sp</dimen>
+    <dimen name="text_16sp">16sp</dimen>
+    <dimen name="text_14sp">14sp</dimen>
+    <dimen name="text_13sp">13sp</dimen>
+    <dimen name="text_12sp">12sp</dimen>
+    <dimen name="text_10sp">10sp</dimen>
+    <dimen name="text_9sp">9sp</dimen>
+    <dimen name="text_8sp">8sp</dimen>
+    <dimen name="text_5sp">5sp</dimen>
+    <!--common dp -->
+    <dimen name="dimens_1dp">1dp</dimen>
+    <dimen name="dimens_2dp">2dp</dimen>
+    <dimen name="dimens_3dp">3dp</dimen>
+    <dimen name="dimens_4dp">4dp</dimen>
+    <dimen name="dimens_5dp">5dp</dimen>
+    <dimen name="dimens_7dp">7dp</dimen>
+    <dimen name="dimens_10dp">10dp</dimen>
+    <dimen name="dimens_12dp">12dp</dimen>
+    <dimen name="dimens_15dp">15dp</dimen>
+    <dimen name="dimens_18dp">18dp</dimen>
+    <dimen name="dimens_20dp">20dp</dimen>
+    <dimen name="dimens_22dp">22dp</dimen>
+    <dimen name="dimens_25dp">25dp</dimen>
+    <dimen name="dimens_28dp">28dp</dimen>
+    <dimen name="dimens_30dp">30dp</dimen>
+    <dimen name="dimens_35dp">35dp</dimen>
+    <dimen name="dimens_40dp">40dp</dimen>
+    <dimen name="dimens_46dp">46dp</dimen>
+    <dimen name="dimens_45dp">45dp</dimen>
+    <dimen name="dimens_47dp">47dp</dimen>
+    <dimen name="dimens_50dp">50dp</dimen>
+    <dimen name="dimens_56dp">56dp</dimen>
+    <dimen name="dimens_60dp">60dp</dimen>
+    <dimen name="dimens_70dp">70dp</dimen>
+    <dimen name="dimens_75dp">75dp</dimen>
+    <dimen name="dimens_80dp">80dp</dimen>
+    <dimen name="dimens_85dp">85dp</dimen>
+    <dimen name="dimens_90dp">90dp</dimen>
+    <dimen name="dimens_100dp">100dp</dimen>
+    <dimen name="dimens_110dp">110dp</dimen>
+    <dimen name="dimens_120dp">120dp</dimen>
+    <dimen name="dimens_130dp">130dp</dimen>
+    <dimen name="dimens_140dp">140dp</dimen>
+    <dimen name="dimens_150dp">150dp</dimen>
+    <dimen name="dimens_160dp">160dp</dimen>
+    <dimen name="dimens_240dp">240dp</dimen>
+    <dimen name="dimens_250dp">250dp</dimen>
+    <dimen name="dimens_300dp">300dp</dimen>
+    <dimen name="dimens_17dp">17dp</dimen>
+
+    <dimen name="header_height">48dp</dimen>
+    <dimen name="header_padding">16dp</dimen>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="common_toolbarheight">50dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!--input-->
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="padding_small">2dp</dimen>
+    <dimen name="text_size_normal">19sp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_xlarge">20dp</dimen>
+
+    <dimen name="card_radius">2dp</dimen>
+    <dimen name="cardview_default_elevation">1dp</dimen>
+
+    <dimen name="card_width_normal">300dp</dimen>
+    <dimen name="card_height_normal">180dp</dimen>
+    <dimen name="chip_width_normal">54dp</dimen>
+    <dimen name="chip_height_normal">36dp</dimen>
+    <dimen name="inner_chip_width_normal">28dp</dimen>
+    <dimen name="inner_chip_height_normal">16dp</dimen>
+
+    <dimen name="setting_editinput">16sp</dimen>
+    <dimen name="setting_menu">16sp</dimen>
+
+
+    <dimen name="normal_text_size">16sp</dimen>
+    <dimen name="normal_margin">16sp</dimen>
+
+</resources>

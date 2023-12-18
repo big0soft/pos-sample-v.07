@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_dukpt"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.nexgo.apiv3demo.DUKPTActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/log_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="log"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/injectkey_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/normal_margin"
+            android:layout_weight="1"
+            android:background="@drawable/btnselector"
+            android:onClick="onClick"
+            android:text="Inject Key"
+            android:textSize="@dimen/normal_text_size" />
+        <Button
+            android:id="@+id/encrypdatas_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/normal_margin"
+            android:layout_weight="1"
+            android:background="@drawable/btnselector"
+            android:onClick="onClick"
+            android:text="Encryp datas"
+            android:textSize="@dimen/normal_text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/ecincrease_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/normal_margin"
+            android:layout_weight="1"
+            android:background="@drawable/btnselector"
+            android:onClick="onClick"
+            android:text="EC Increase"
+            android:textSize="@dimen/normal_text_size" />
+        <Button
+            android:id="@+id/currentksn_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/normal_margin"
+            android:layout_weight="1"
+            android:background="@drawable/btnselector"
+            android:onClick="onClick"
+            android:text="now ksn"
+            android:textSize="@dimen/normal_text_size" />
+    </LinearLayout>
+
+
+</LinearLayout>

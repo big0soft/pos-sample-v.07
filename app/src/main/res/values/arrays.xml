@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="beeper_items">
+        <item>ring one time</item>
+        <item>success</item>
+        <item>fail</item>
+        <item>intermission</item>
+        <item>serious error</item>
+    </string-array>
+    <string-array name="led_items">
+        <item>blue</item>
+        <item>yellow</item>
+        <item>red</item>
+        <item>green</item>
+    </string-array>
+
+    <string-array name="grey_items">
+        <item>Level 0</item>
+        <item>Level 1</item>
+        <item>Level 2</item>
+        <item>Level 3</item>
+        <item>Level 4</item>
+    </string-array>
+
+
+    <string-array name="feature_level">
+        <item>DEFAULT</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="device_mode">
+        <item>UNKNOWN</item>
+        <item>CASHLESS</item>
+        <item>TRANSMIT</item>
+    </string-array>
+
+</resources>
